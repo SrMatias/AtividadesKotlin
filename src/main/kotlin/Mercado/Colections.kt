@@ -7,8 +7,12 @@ Remover dados da list;
 Atualizar dados da list.
 Apresentar todos os dados da list.
         */
-var estoque = mutableListOf<String>("Arroz","Feijão","Macarão","Oleo","Cebola", "Massa de Tomate")
+ var estoque = arrayListOf<String>()
+
 fun main(){
+
+
+
 while (true){
 
 
@@ -35,6 +39,8 @@ while (true){
         "3"-> Atualizar()
         "4" -> ver()
         "5" -> break
+
+
 
 
     else  -> println("Opção invalida")

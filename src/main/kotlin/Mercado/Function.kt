@@ -3,12 +3,14 @@ fun  addmercadorias(produto:String){
         if (produto!= ""){
             estoque.add(produto)
             println("produto $produto adicionado com secesso!")
+            break
         }else{
             println("Produto invalido!")
         }
     }
 fun removeMecadoria() {
     while (true) {
+        println("Qual desse Proutos deseja EXCLUIR? : $estoque")
         println("Qual Produto sera excluido? ")
         val produtoexc = readln()
         if (estoque.contains(produtoexc)) {
@@ -27,13 +29,14 @@ fun removeMecadoria() {
 
 fun Atualizar(){
 
-        println("Qual Produto sera atualizado? ")
+        println("Qual Produto sera RENOMEADO? :$estoque ")
+
         val produtoatt = readln()
         if (estoque.contains(produtoatt)){
             val posicao = estoque.indexOf(produtoatt)
             println("Qual o novo nome do produto? ")
             estoque[posicao] = readln()
-            println("Produto $produtoatt atualizado com secesso!")
+            println("Produto $produtoatt foi Renomeado com secesso!")
 
         }
 
@@ -48,10 +51,6 @@ fun Atualizar(){
 fun ver(){
 
     println()
-    print(estoque)
+    println(estoque,)
 
 }
-fun menu(){
-
-}
-

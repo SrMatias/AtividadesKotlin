@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ClientsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-25T18:08:11" hostname="MURILO" time="0.101">
+  <properties/>
+  <testcase name="removeCompra()" classname="ClientsTest" time="0.101"/>
+  <system-out><![CDATA[Produto adicionado com sucesso!
+Produto adicionado com sucesso!
+Produto adicionado com sucesso!
+Produto removido com sucesso!
+Produto removido com sucesso!
+Produto removido com sucesso!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -9,8 +9,7 @@ class Clients2 (
     val Cpf: String,
     ){
 
-     private var estoque = arrayListOf<String>()
-
+     private var estoque = mutableListOf<String>()
 
 fun addCompra(compra: String){
     if(compra.isNotBlank()){

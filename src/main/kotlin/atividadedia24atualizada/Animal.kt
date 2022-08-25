@@ -1,18 +1,15 @@
 package atividadedia24
 
-open class Animal (
+abstract class Animal(
     var nome: String,
     var idade: Int
 ) {
 
-    open fun correr(){
-        println("Correndo")
-    }
+    abstract fun correr()
+
 
    open fun emitirsom(){
         println("som")
     }
-fun deitado(){
-println("ZzzzzzzzzzZ")
-}
+
 }
